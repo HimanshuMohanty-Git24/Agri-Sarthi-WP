@@ -88,6 +88,9 @@ flowchart TD
 -----
 
 ## How It Works
+<img width="574" height="531" alt="AgriSarti_Wp" src="https://github.com/user-attachments/assets/4a9238e8-0573-45e7-829b-9cef5a3f30b9" />
+
+
 
 1.  **Message Reception**: A user sends a text or voice message to the Agri-Sarthi WhatsApp number.
 2.  **Gateway**: The **WPPConnect server** receives the message and forwards it as a webhook to the `/webhook` endpoint of the **FastAPI application**.

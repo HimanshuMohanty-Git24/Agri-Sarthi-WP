@@ -64,23 +64,25 @@ flowchart TD
     F -->|"translate back"| Q
     Q --> B
     B -->|"Reply (text / audio)"| A
-    %% ───── STYLE MAP ─────
-    classDef laneStroke stroke:#666,stroke-width:2px
+    %% ───── STYLE MAP (Dark Mode Optimized) ─────
+    classDef laneStroke stroke:#888,stroke-width:2px,color:#ffffff
     class 01_UI laneStroke
     class 02_WG laneStroke
     class 03_API laneStroke
     class 04_CORE laneStroke
     class 05_TOOLS laneStroke
-    classDef user     fill:#e0f7fa,stroke:#0288d1,stroke-width:2px
-    classDef gateway  fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-    classDef backend  fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    classDef core     fill:#ede7f6,stroke:#5e35b1,stroke-width:2px
-    classDef tools    fill:#fbe9e7,stroke:#d84315,stroke-width:2px
+    classDef user     fill:#1a365d,stroke:#63b3ed,stroke-width:2px,color:#ffffff
+    classDef gateway  fill:#1c4532,stroke:#68d391,stroke-width:2px,color:#ffffff
+    classDef backend  fill:#744210,stroke:#f6ad55,stroke-width:2px,color:#ffffff
+    classDef core     fill:#44337a,stroke:#b794f6,stroke-width:2px,color:#ffffff
+    classDef tools    fill:#742a2a,stroke:#fc8181,stroke-width:2px,color:#ffffff
     class A user
     class B gateway
     class C,D,E,F backend
     class G,H,I,J,K core
     class L,M,N,O,P,Q tools
+    %% ───── GLOBAL DARK MODE STYLING ─────
+    %%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#1f2937", "primaryTextColor": "#ffffff", "primaryBorderColor": "#4b5563", "lineColor": "#9ca3af", "secondaryColor": "#374151", "tertiaryColor": "#4b5563", "background": "#111827", "mainBkg": "#1f2937", "secondBkg": "#374151", "tertiaryBkg": "#4b5563"}}}%%
 ```
 
 -----

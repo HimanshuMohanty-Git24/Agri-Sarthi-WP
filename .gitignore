@@ -175,3 +175,4 @@ wppconnect-server/
 
 .vscode
 *.json
+*.txt
